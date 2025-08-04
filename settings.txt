@@ -9,46 +9,301 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+// parameter variables
 
+let cellSize = 250;
+
+let scale_factor = 1.5; // adjust this to scale the main eye ball
+let colourScheme = 2; // number 0, 1 or 2
+let noseLook = 0; //number 0, 1 or 2 
+let wallpaperDesign = 2; //number 0, 1 or 2 
+let wallpaperColour = 1; //number 0, 1 or 2 
+
+angleMode(DEGREES);
 function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 0;
 }
+
 
 /////////////////////////////////
 
 Wallpaper 2:
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+et cellSize = 250;
 
+let scale_factor = 1.7; // adjust this to scale the main eye ball
+let colourScheme = 0; // number 0, 1 or 2
+let noseLook = 1; //number 0, 1 or 2 
+let wallpaperDesign = 0; //number 0, 1 or 2 
+let wallpaperColour = 2; //number 0, 1 or 2 
+
+angleMode(DEGREES);
 function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 125;
+}
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.7; // adjust this to scale the main eye ball
+let colourScheme = 1; // number 0, 1 or 2
+let noseLook = 2; //number 0, 1 or 2 
+let wallpaperDesign = 0; //number 0, 1 or 2 
+let wallpaperColour = 0; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 125;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.2; // adjust this to scale the main eye ball
+let colourScheme = 2; // number 0, 1 or 2
+let noseLook = 2; //number 0, 1 or 2 
+let wallpaperDesign = 1; //number 0, 1 or 2 
+let wallpaperColour = 0; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 125;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 5:
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.8; // adjust this to scale the main eye ball
+let colourScheme = 2; // number 0, 1 or 2
+let noseLook = 1; //number 0, 1 or 2 
+let wallpaperDesign = 2; //number 0, 1 or 2 
+let wallpaperColour = 2; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 125;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.5; // adjust this to scale the main eye ball
+let colourScheme = 1; // number 0, 1 or 2
+let noseLook = 1; //number 0, 1 or 2 
+let wallpaperDesign = 2; //number 0, 1 or 2 
+let wallpaperColour = 2; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 125;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 7:
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.5; // adjust this to scale the main eye ball
+let colourScheme = 2; // number 0, 1 or 2
+let noseLook = 1; //number 0, 1 or 2 
+let wallpaperDesign = 0; //number 0, 1 or 2 
+let wallpaperColour = 0; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 72.5;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 8:
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.2; // adjust this to scale the main eye ball
+let colourScheme = 0; // number 0, 1 or 2
+let noseLook = 0; //number 0, 1 or 2 
+let wallpaperDesign = 1; //number 0, 1 or 2 
+let wallpaperColour = 1; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 72.5;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 9:
+
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.5; // adjust this to scale the main eye ball
+let colourScheme = 0; // number 0, 1 or 2
+let noseLook = 2; //number 0, 1 or 2 
+let wallpaperDesign = 2; //number 0, 1 or 2 
+let wallpaperColour = 0; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 90;
+}
+
+
+/////////////////////////////////
+
+Main Wallpaper:
+
+// parameter variables
+
+let cellSize = 250;
+
+let scale_factor = 1.5; // adjust this to scale the main eye ball
+let colourScheme = 2; // number 0, 1 or 2
+let noseLook = 0; //number 0, 1 or 2 
+let wallpaperDesign = 1; //number 0, 1 or 2 
+let wallpaperColour = 0; //number 0, 1 or 2 
+
+
+
+angleMode(DEGREES);
+function setup_wallpaper(pWallpaper) {
+  //pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(A3);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = cellSize;
+  pWallpaper.grid_settings.cell_height = cellSize;
+  pWallpaper.grid_settings.row_offset  = 125;
 }
